@@ -63,11 +63,14 @@ classifica-lai-df/
 
 └── README.md
 
+---
+
 7\. Requisitos
 
 
 Python 3.9 ou superior
 
+---
 
 \## 8. Instalação
 
@@ -79,11 +82,9 @@ A solução utiliza apenas bibliotecas padrão do Python, não sendo necessária
 
 Opcionalmente, pode-se criar um ambiente virtual com o comando:
 
-
-
 python -m venv venv
 
-
+---
 
 \## 9. Execução
 
@@ -92,6 +93,8 @@ Para executar o modelo, utilize o seguinte comando no diretório raiz do projeto
 python src/main.py
 
 O programa solicitará a entrada de um texto correspondente a um pedido de acesso à informação.
+
+---
 
 \## 10. Saída
 
@@ -102,6 +105,8 @@ Resultado: O pedido CONTÉM dados pessoais
 
 Resultado: O pedido NÃO contém dados pessoais
 
+---
+
 \## 11. Conformidade com o Edital
 
 Esta solução atende integralmente aos requisitos da categoria Acesso à Informação, permitindo avaliação objetiva por métricas de desempenho e análise da documentação técnica, conforme estabelecido no Edital nº 10/2025 do 1º Hackathon em Controle Social – Desafio Participa DF.
@@ -109,6 +114,7 @@ Esta solução atende integralmente aos requisitos da categoria Acesso à Inform
 \## 12. Considerações Finais
 
 O ClassificaLAI-DF apresenta uma solução simples, automatizada e auditável para apoiar a proteção de dados pessoais no contexto do acesso à informação pública, contribuindo para o fortalecimento da transparência responsável no Distrito Federal.
+
 
 
 
