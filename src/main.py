@@ -6,17 +6,19 @@ sys.path.append(os.path.dirname(__file__))
 
 from detector import contains_personal_data
 
+
 def main():
     print("Analisador de Pedidos de Acesso à Informação\n")
 
-    text = input("Digite o texto do pedido:\n")
+    texto = input("Digite o texto do pedido:\n")
 
-    result = contains_personal_data(text)
+    resultado = contains_personal_data(texto)
 
-    if result:
-        print("\nResultado: O pedido CONTÉM dados pessoais.")
+    if resultado:
+        print("Risco de privacidade detectado")
     else:
-        print("\nResultado: O pedido NÃO contém dados pessoais.")
+        print("Sem risco de privacidade identificado")
+
 
 if __name__ == "__main__":
     main()
