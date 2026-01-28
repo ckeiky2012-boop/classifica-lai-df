@@ -49,8 +49,6 @@ Essa abordagem foi escolhida por sua simplicidade, transparência, facilidade de
 \## 6. Estrutura do Projeto
 
 
-text
-
 classifica-lai-df/
 
 ├── data/
@@ -111,5 +109,6 @@ Esta solução atende integralmente aos requisitos da categoria Acesso à Inform
 \## 12. Considerações Finais
 
 O ClassificaLAI-DF apresenta uma solução simples, automatizada e auditável para apoiar a proteção de dados pessoais no contexto do acesso à informação pública, contribuindo para o fortalecimento da transparência responsável no Distrito Federal.
+
 
 
