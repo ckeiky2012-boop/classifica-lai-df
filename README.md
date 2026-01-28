@@ -41,12 +41,23 @@ A solução utiliza uma abordagem baseada em regras e expressões regulares (Reg
 
 \- Telefones
 
-
 Essa abordagem foi escolhida por sua simplicidade, transparência, facilidade de auditoria e rápida execução.
 
 ---
 
-\## 6. Estrutura do Projeto
+\## 6. Diagrama Conceitual da Solução
+
+O diagrama a seguir apresenta uma visão conceitual do funcionamento da solução proposta.
+
+A partir do texto de um pedido de acesso à informação classificado como público, o modelo realiza o processamento automatizado do conteúdo textual, identificando a presença de padrões associados a dados pessoais, como CPF, endereço de e-mail e telefone.
+
+Quando tais padrões são detectados, o pedido é sinalizado como contendo risco de privacidade, indicando a necessidade de reclassificação ou tratamento adequado, em conformidade com a Lei de Acesso à Informação (Lei nº 12.527/2011) e a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).
+
+O diagrama tem caráter exclusivamente ilustrativo, representando o fluxo lógico da solução, não correspondendo a uma interface gráfica do sistema.
+
+![Diagrama conceitual da detecção de dados pessoais](docs/diagrama-conceitual.png)
+
+\## 7. Estrutura do Projeto
 
 
 classifica-lai-df/
@@ -65,14 +76,14 @@ classifica-lai-df/
 
 ---
 
-7\. Requisitos
+8\. Requisitos
 
 
 Python 3.9 ou superior
 
 ---
 
-\## 8. Instalação
+\## 9. Instalação
 
 
 
@@ -86,7 +97,7 @@ python -m venv venv
 
 ---
 
-\## 9. Execução
+\## 10. Execução
 
 Para executar o modelo, utilize o seguinte comando no diretório raiz do projeto:
 
@@ -96,7 +107,7 @@ O programa solicitará a entrada de um texto correspondente a um pedido de acess
 
 ---
 
-\## 10. Saída
+\## 11. Saída
 
 
 Após a análise do texto informado, o sistema retorna uma das seguintes mensagens:
@@ -107,14 +118,11 @@ Resultado: O pedido NÃO contém dados pessoais
 
 ---
 
-\## 11. Conformidade com o Edital
+\## 12. Conformidade com o Edital
 
 Esta solução atende integralmente aos requisitos da categoria Acesso à Informação, permitindo avaliação objetiva por métricas de desempenho e análise da documentação técnica, conforme estabelecido no Edital nº 10/2025 do 1º Hackathon em Controle Social – Desafio Participa DF.
 
-\## 12. Considerações Finais
+\## 13. Considerações Finais
 
 O ClassificaLAI-DF apresenta uma solução simples, automatizada e auditável para apoiar a proteção de dados pessoais no contexto do acesso à informação pública, contribuindo para o fortalecimento da transparência responsável no Distrito Federal.
-
-
-
 
